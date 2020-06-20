@@ -1,3 +1,0 @@
-/home/work/worktest/algorithms/chapter1/ex9/build/CMakeFiles/rebuild_cache.dir
-/home/work/worktest/algorithms/chapter1/ex9/build/CMakeFiles/ex9.dir
-/home/work/worktest/algorithms/chapter1/ex9/build/CMakeFiles/edit_cache.dir

@@ -1,16 +1,16 @@
 #!/bin/bash
 if [ "$1" == "clean" ];then
-    if [ -d "build" ]
+    if [ -d ".build" ]
     then
-        rm -rv build 
+        rm -rv .build 
     fi
 else
     currdir=$(cd `dirname $0`; pwd)
-    if [ ! -d "build" ]
+    if [ ! -d ".build" ]
     then
-        mkdir build
+        mkdir .build
     fi
-    cd build
+    cd .build
     cmake ..
     make -j4
     echo "run process?[r]"

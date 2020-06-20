@@ -1,1 +1,0 @@
-/usr/bin/c++    -rdynamic CMakeFiles/ex6.dir/main.cpp.o  -o ex6 

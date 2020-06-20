@@ -1,1 +1,0 @@
-/usr/bin/c++    -rdynamic CMakeFiles/2.1.dir/c2-1.c.o CMakeFiles/2.1.dir/main.cpp.o  -o 2.1  -L/usr/lib/gcc/x86_64-linux-gnu/7 
