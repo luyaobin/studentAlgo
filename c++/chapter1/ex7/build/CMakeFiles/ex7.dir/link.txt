@@ -1,0 +1,1 @@
+/usr/bin/c++    -rdynamic CMakeFiles/ex7.dir/main.cpp.o  -o ex7 

@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/work/worktest/algorithms/chapter1/ex2/countArrayTest.cpp
+countArrayTest.h
+/home/work/worktest/algorithms/chapter1/ex2/countArrayTest.h
+
+/home/work/worktest/algorithms/chapter1/ex2/countArrayTest.h
+
+/home/work/worktest/algorithms/chapter1/ex2/main.cpp
+iostream
+-
+countArrayTest.h
+/home/work/worktest/algorithms/chapter1/ex2/countArrayTest.h
+

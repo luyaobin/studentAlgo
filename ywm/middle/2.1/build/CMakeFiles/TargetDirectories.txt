@@ -1,0 +1,3 @@
+/home/work/worktest/algorithms/ywm/2.1/build/CMakeFiles/rebuild_cache.dir
+/home/work/worktest/algorithms/ywm/2.1/build/CMakeFiles/2.1.dir
+/home/work/worktest/algorithms/ywm/2.1/build/CMakeFiles/edit_cache.dir
