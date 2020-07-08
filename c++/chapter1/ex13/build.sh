@@ -1,1 +1,1 @@
-/home/work/worktest/algorithms/demoCMake/.build.sh
+../../../demoCMake/.build.sh

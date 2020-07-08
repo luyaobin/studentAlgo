@@ -1,1 +1,1 @@
-/home/work/worktest/algorithms/demoCMake/.CMakeTutorialPB.md
+../../../demoCMake/.CMakeTutorialPB.md
