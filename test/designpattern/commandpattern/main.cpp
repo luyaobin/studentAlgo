@@ -8,7 +8,7 @@
 using namespace std;
 int main(int argc, char ** argv)
 {
-	cout << "hello world";
+	cout << "hello world" << endl;
     Stock *abcStock = new  Stock();
     BuyStock *buyStockOrder = new BuyStock(abcStock);
     SellStock *sellStockOrder = new SellStock(abcStock);
