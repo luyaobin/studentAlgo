@@ -1,1 +1,0 @@
-/usr/bin/x86_64-linux-gnu-g++-7  -g  -rdynamic CMakeFiles/commandpattern.dir/broker.cpp.o CMakeFiles/commandpattern.dir/buystock.cpp.o CMakeFiles/commandpattern.dir/main.cpp.o CMakeFiles/commandpattern.dir/sellstock.cpp.o CMakeFiles/commandpattern.dir/stock.cpp.o  -o commandpattern 
