@@ -1,6 +1,6 @@
 #pragma once
 #include <iostream>
-using namespa std;
+using namespace std;
 class illegalParameterValue
 {
 public:
