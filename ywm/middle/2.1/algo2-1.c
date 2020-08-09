@@ -1,6 +1,19 @@
 #include "c1.h"
+typedef int ElemType;
+
 #include "c2-1.h"
 #include <math.h>
+
+#define LIST_INIT_SIZE 10
+#define LISTINCREMENT 2
+
+typedef struct
+{
+    ElemType *elem;
+    int length;
+    int listsize;
+}SqList;
+// #include "bo2-1.c"
 
 #ifndef OVERFLOW
 #define OVERFLOW -2
@@ -58,7 +71,7 @@ int LocateElem(SqList L, ElemType e, Status(*compare)(ElemType, ElemType))
     ElemType *p;
     int i = 1;
     p = L.elem;
-    while(1 <= L.length && ! compare(*p++, e))
+    while(1 <= L.length && !compare(*p++, e))
     {
         ++i;
     }
@@ -176,7 +189,37 @@ void Union(SqList *La, SqList Lb)
 	Lb_len = ListLength(Lb);
 	for (i = 1; i <= Lb_len; i++)
 	{
+        GetElem(Lb, i, &e);
 		if (!LocateElem(*La, e, equal))
 			ListInsert(La, ++La_len, e);
 	}
+}
+
+void print(ElemType *c)
+{
+    printf("%d ", *c);
+}
+
+int main(int argc, char **argv)
+{
+    SqList La, Lb;
+    Status i;
+    int j;
+    i = InitList(&La);
+    if (i == OK)
+    {
+        for (j = 1; j <=5 ; j++) {
+            i = ListInsert(&La, j, j);
+        }
+        printf("La = ");
+        ListTraverse(La, print);
+        InitList(&Lb);
+        for (j = 1; j <= 5; j++)
+            i = ListInsert(&Lb, j, 2 * j);
+        printf("Lb = ");
+        ListTraverse(Lb, print);
+        Union(&La, Lb);
+        printf("new La = ");
+        ListTraverse(La, print);
+    }
 }
